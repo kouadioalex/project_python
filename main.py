@@ -1,27 +1,15 @@
-"""# This is a sample Python script.
+etudiant = [("bah",25, 1.65),
+            ("jean",24, 1.67),
+            ("kouame", 27, 1.70),
+            ("alice",23, 1.40),
+            ("felicité", 17, 1.18)]
 
-# Press Maj+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+def info(nom):
+    for i in etudiant:
+        if i==nom:
+            return True
+        #return None
 
+        print(i)
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
-#------------------------------<>---------------------------"""
-
-
-print("bonjour alex")
-print("bonjour kouassi")
-print()
-print("bonjour  yao")
-print("bonjour konan")
-print("bonjour kouadio")
-
-
+info("")
